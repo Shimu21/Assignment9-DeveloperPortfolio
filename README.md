@@ -1,7 +1,19 @@
-# Getting Started with Create React App
+# Review of my Site "Exclusive Ladies Bags"
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was tailwind with [Exclusive Ladies Bags](https://glowing-genie-c0944c.netlify.app).
 
-## Available Scripts
+## Exploring my Ladies Bag Shop
+* Long lasting.
+* Fashionable.
+* Handy.
+* Light weight.
+* Easy to Carry.
+
+## Framework used:
+
+* React Tailwind.
+* Raw CSS.
+* React Router Dom.
+* Hero Icons.
 
 
