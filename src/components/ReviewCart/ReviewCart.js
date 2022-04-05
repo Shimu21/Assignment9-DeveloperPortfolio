@@ -4,7 +4,7 @@ import './ReviewCart.css'
 
 const ReviewCart = ({ review }) => {
     return (
-        <div>
+        <div className='mb-16 mt-8'>
             <h1 className='font-bold'>Name: {review.name}</h1>
             <p>comment: {review.comment}</p>
             <div className='flex'>
