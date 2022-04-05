@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import useReview from '../../hook/useReview';
 import image from '../../Img/yellow-bag.jpg'
 import HomeReview from '../HomeReview/HomeReview';
@@ -22,13 +23,14 @@ const Home = () => {
             </div>
 
             <div>
+                <h2 className='text-4xl font-bold flex justify-center'>Client's<span className='text-teal-700 ml-4 mb-4'> Opinion</span> </h2>
                 <div className='grid md:grid-cols-3 gap-3'>
                     {
                         slice3.map(review => <HomeReview review={review}></HomeReview>)
                     }
                 </div>
                 <div className='flex justify-center'>
-                    <button className='font-bold bg-teal-700 hover:bg-sky-700 '>Click for Reviews</button>
+                    <Link to="/review"><button className='font-bold bg-teal-700 p-2 px-8 mt-16 mb-16 rounded hover:bg-sky-700'>Click for Reviews</button></Link>
                 </div>
             </div>
         </div>

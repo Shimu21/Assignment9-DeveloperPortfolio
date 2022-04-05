@@ -3,10 +3,11 @@ import useReview from '../../hook/useReview';
 import './Review.css';
 import ReviewCart from '../ReviewCart/ReviewCart';
 
+
 const Review = () => {
     const [reviews, setReviews] = useReview();
     return (
-        <div className='cart'>
+        <div className='cart mb-96'>
             {
                 reviews.map(review => <ReviewCart review={review}></ReviewCart>)
             }
